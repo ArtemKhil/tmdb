@@ -4,7 +4,7 @@ import {useParams, useSearchParams} from "react-router-dom";
 
 import {genreActions} from "../../redux";
 import {GenreDetail} from "../genre.detail/Genre.Detail";
-import css from './GenreDetauls.module.css';
+import css from './GenreDetails.module.css';
 
 
 function GenreDetails() {
