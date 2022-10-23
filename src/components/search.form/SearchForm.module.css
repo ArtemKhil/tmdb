@@ -1,0 +1,42 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search_form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_form input {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+
+.search_form button {
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: gold;
+    color: purple;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.search_result {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    font-family: sans-serif;
+}
+

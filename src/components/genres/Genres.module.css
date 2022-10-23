@@ -1,0 +1,16 @@
+.genres_wrap {
+    margin-top: 20px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: sans-serif;
+}
+
+.genres_wrap a {
+    text-decoration: none;
+    color: purple;
+
+}

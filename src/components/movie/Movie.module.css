@@ -1,0 +1,7 @@
+.movie_details button {
+    margin-top: 10px;
+    background: gold;
+    border-radius: 10px;
+    color: purple;
+    font-weight: bold;
+}
